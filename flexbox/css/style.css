@@ -17,7 +17,7 @@
 
 .conteiner {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   align-items: center;
   width: 425px;
   margin-left: auto;
@@ -30,8 +30,8 @@
   padding: 3px;
 }
 
-.conteiner_rectangle {
-  display: flex;  
+.conteiner_square {
+  display: flex;
   align-items: center;
   justify-content: flex-end;
   width: 425px;
@@ -47,4 +47,12 @@
 
 .rectangle__right__pad0 {
   padding: 0px;
+}
+
+.conteiner_square--right {
+  width: 690px;
+}
+
+.conteiner_rectangle--right {
+  width: 150px;
 }
