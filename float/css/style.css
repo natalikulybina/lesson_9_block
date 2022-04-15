@@ -1,8 +1,8 @@
 .content {
+  display: flow-root;
   width: 850px;
   margin-left: auto;
   margin-right: auto;
-  overflow: auto;
   padding: 15px;
   border: 2px solid rgb(147, 147, 160);  
 }
@@ -34,17 +34,16 @@
 }
 
 .container {
+  display: flow-root;
   width: 380px;
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
-  overflow: auto;
 }
 
 .square {
   float: left;
   width: 150px;
-  height: 150px;  
   padding: 10px;
   text-align: center;
   background-color: rgb(207, 232, 220);
@@ -61,9 +60,9 @@
 }
 
 .container_mr0 {
+  display: flow-root;
   width: 380px;
   margin-left: auto;  
   margin-right: 0px;
   padding: 5px;
-  overflow: auto;
 }
