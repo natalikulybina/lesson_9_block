@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border: 2px solid rgb(147, 147, 160);
+}
+
+.rectangle {
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(207, 232, 220);
+}
+
+.conteiner {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: 0px;
+  padding: 5px;
+}
+
+.rectangle__right--little {
+  width: 75px;
+  padding: 3px;
+}
