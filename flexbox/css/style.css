@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;  
   align-items: center;
-  width: 500px;
+  width: 425px;
   margin-left: auto;
   margin-right: 0px;
   padding: 5px;
@@ -28,4 +28,23 @@
 .rectangle__right--little {
   width: 75px;
   padding: 3px;
+}
+
+.conteiner_rectangle {
+  display: flex;  
+  align-items: center;
+  justify-content: flex-end;
+  width: 425px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.conteiner_column {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.rectangle__right__pad0 {
+  padding: 0px;
 }
