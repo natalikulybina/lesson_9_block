@@ -13,6 +13,7 @@
   padding: 10px;
   text-align: center;
   background-color: rgb(207, 232, 220);
+  border: 1px solid grey;
 }
 
 .conteiner {
@@ -23,6 +24,11 @@
   margin-left: auto;
   margin-right: 0px;
   padding: 5px;
+}
+
+.conteiner_space {
+  margin-left: 0px;
+  width: 350px;
 }
 
 .rectangle__right--little {

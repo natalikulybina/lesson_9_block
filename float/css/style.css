@@ -1,17 +1,16 @@
 .content {
-  display: flow-root;
   width: 850px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
-  border: 2px solid rgb(147, 147, 160);  
+  border: 2px solid rgb(147, 147, 160);
 }
 
 .rectangle {
-  width: 150px;  
+  width: 150px;
   padding: 10px;
   text-align: center;
-  background-color: rgb(207, 232, 220);  
+  background-color: rgb(207, 232, 220);
   border: 1px solid grey;
 }
 
@@ -25,16 +24,21 @@
   margin-left: 15px;
 }
 
-.rectangle__right--little {   
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.rectangle__right--little {
   float: right;
   width: 75px;
-  margin-top: 25px;  
+  margin-top: 25px;
   margin-left: 15px;
   padding: 3px;
 }
 
 .container {
-  display: flow-root;
   width: 380px;
   margin-left: auto;
   margin-right: auto;
@@ -60,9 +64,8 @@
 }
 
 .container_mr0 {
-  display: flow-root;
   width: 380px;
-  margin-left: auto;  
+  margin-left: auto;
   margin-right: 0px;
   padding: 5px;
 }
